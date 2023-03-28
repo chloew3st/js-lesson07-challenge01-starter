@@ -7,18 +7,11 @@ var closeModal = function() {
     button.innerText = "Who's got this?";
 };
 
-// Bonus Step
-// var openModal = function () {
-//   modal.classList.add("show-modal");
-//   button.innerText = "You've got this!!!";
-// };
 
 button.addEventListener("click", function() {
     modal.classList.add("show-modal");
     button.innerText = "You've got this!!!";
 
-    // Bonus Step
-    // openModal();
 });
 
 modalX.addEventListener("click", function() {
